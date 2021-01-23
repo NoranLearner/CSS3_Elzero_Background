@@ -1,0 +1,24 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div{
+    width: 80%;
+    height: 318px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 10px dotted #ccc;
+    color: brown;
+
+    background-image: url('a.png');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-clip:content-box;
+
+    background-origin: content-box;
+}
